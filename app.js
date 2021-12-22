@@ -4,7 +4,7 @@ const app = express()
 
 const mongose=require('mongoose')
 
-const port= process.env.port || 8000
+const port= process.env.PORT || 8000
 const Wish=require('./models/wish')
 
 const {mongourl}=require('./config/keys')
